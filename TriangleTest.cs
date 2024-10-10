@@ -5,7 +5,7 @@ public class TriangleTests
 {
     // 1. Equilateral Triangle Test (All sides are equal)
     [Test]
-    public void Check_Sides_Are_Equal()
+    public void Determine_Triangle_Type_Check_Sides_Are_Equal()
     {
         // Arrange
         int side1 = 3;
@@ -21,7 +21,7 @@ public class TriangleTests
 
     // 2. Isosceles Triangle Test (Two sides are equal)
     [Test]
-    public void Check_Two_Sides_Are_Equal()
+    public void CDetermine_Triangle_Type_heck_Two_Sides_Are_Equal()
     {
         // Arrange
         int side1 = 5;
@@ -37,7 +37,7 @@ public class TriangleTests
 
     // 3. Scalene Triangle Test (All sides are different)
     [Test]
-    public void All_Sides_Are_Different()
+    public void Determine_Triangle_Type_All_Sides_Are_Different()
     {
         // Arrange
         int side1 = 3;
@@ -53,7 +53,7 @@ public class TriangleTests
 
     // 4. Not a Triangle (Sum of two sides is less than or equal to the third side)
     [Test]
-    public void Check_Not_A_Triangle()
+    public void Determine_Triangle_Type_Check_Not_A_Triangle()
     {
         // Arrange
         int side1 = 1;
